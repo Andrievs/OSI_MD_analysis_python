@@ -1,0 +1,118 @@
+{
+   "pdb_path":"/home/auzins/Documents/gromacs/benzoic_acid/FBA/2FBA/2FBA_50_MetOH/MD",
+   "pdb_file":"md.pdb",
+   "output_path":"/home/auzins/Documents/gromacs/benzoic_acid/FBA/2FBA/2FBA_50_MetOH/Analysis",
+   "molecule_count":256,
+   "molecule_atoms":15,
+   "solvent_count":848,
+   "solvent_atoms":6,
+   "processor_count":4,
+   "mol_center_atoms":[
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+   
+],
+   "sol_center_atoms":[
+      0,
+      1
+   
+],
+   "mol_plane_atoms":[
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+   
+],
+   "check_internal":true,
+   "internal_rotation":[
+      [
+         7,
+         8
+      
+],
+      [
+         1,
+         5
+      
+]
+   
+],
+   "internal_torsion":[
+      [
+         7,
+         14
+      
+],
+      [
+         6,
+         0
+      
+],
+      [
+         6,
+         7
+      
+]
+   
+],
+   "check_pipi_intermolecular":true,
+   "mol_benzol":[
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+   
+],
+   "check_hydrogen_intermolecular":true,
+   "mol_donors":[
+      [
+         7,
+         [
+            14
+         
+]
+      
+]
+   
+],
+   "mol_acceptors":[
+      7,
+      8,
+      13
+   
+],
+   "check_hydrogen_withsolvent":true,
+   "sol_donors":[
+      [
+         1,
+         [
+            5
+         
+]
+      
+]
+   
+],
+   "sol_acceptors":[
+      1
+   
+],
+   "picoseconds":10,
+   "symetryAtoms":[
+      "D7",
+      "A8"
+]
+}
+
