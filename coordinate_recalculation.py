@@ -127,7 +127,8 @@ def Spherical_KDE(name, title, xname, yname, x, xmin, xmax, y, ymin, ymax, cmapN
 	# https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
     ti = 0
     tj = 0
-    max_val = max(map(max, kde_2d))
+    # max_val = max(map(max, kde_2d))
+    max_val = ((xmax - xmin) / xbin) * ((ymax - ymin) / ybin)
     for col in kde_2d:
         for val in col:
             val = to_energy(val, max_val)
@@ -240,7 +241,8 @@ def Cylindrical_KDE(name, title, xname, yname, x, xmin, xmax, y, ymin, ymax, cma
     # https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
     ti = 0
     tj = 0
-    max_val = max(map(max, kde_2d))
+    # max_val = max(map(max, kde_2d))
+    max_val = ((xmax - xmin) / xbin) * ((ymax - ymin) / ybin)
     for col in kde_2d:
         for val in col:
             val = to_energy(val, max_val)
@@ -291,7 +293,8 @@ def Flat_KDE(name, title, xname, yname, x, xmin, xmax, y, ymin, ymax, cmapName, 
     # https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
     ti = 0
     tj = 0
-    max_val = max(map(max, kde_2d))
+    # max_val = max(map(max, kde_2d))
+    max_val = ((xmax - xmin) / xbin) * ((ymax - ymin) / ybin)
     for col in kde_2d:
         for val in col:
             val = to_energy(val, max_val)
